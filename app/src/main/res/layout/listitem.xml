@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:padding="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/image_view_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/name_text_view_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample1"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/image_view_list_item"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/type_text_view_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample2"
+
+        android:layout_below="@+id/name_text_view_list_item"
+        android:layout_alignLeft="@+id/name_text_view_list_item"
+        android:layout_alignStart="@+id/name_text_view_list_item"
+        android:textSize="18sp" />
+
+
+
+    <TextView
+        android:id="@+id/price_text_view_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample3"
+
+        android:layout_below="@+id/type_text_view_list_item"
+        android:layout_alignLeft="@+id/type_text_view_list_item"
+        android:layout_alignStart="@+id/type_text_view_list_item"
+
+        android:textSize="18sp"/>
+
+
+
+
+</RelativeLayout>

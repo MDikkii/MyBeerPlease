@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/edit"
+        android:id="@+id/edit_item"/>
+    <item
+        android:title="@string/delete"
+        android:id="@+id/delete_item"/>
+    <item
+        android:title="@string/sort"
+        android:id="@+id/sort_items">
+        <menu>
+            <item android:id="@+id/name_item_sort"
+                android:title="@string/name_sort">
+                <menu>
+                    <item android:id="@+id/name_item_sort_asc"
+                        android:title="@string/asc"/>
+                    <item android:id="@+id/name_item_sort_desc"
+                        android:title="@string/desc"/>
+                </menu>
+            </item>
+            <item android:id="@+id/type_item_sort"
+                android:title="@string/type">
+                <menu>
+                    <item android:id="@+id/type_item_sort_asc"
+                        android:title="@string/asc"/>
+                    <item android:id="@+id/type_item_sort_desc"
+                        android:title="@string/desc"/>
+                </menu>
+            </item>
+            <item android:id="@+id/price_item_sort"
+                android:title="@string/price">
+                <menu>
+                    <item android:id="@+id/price_item_sort_asc"
+                        android:title="@string/asc"/>
+                    <item android:id="@+id/price_item_sort_desc"
+                        android:title="@string/desc"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>
